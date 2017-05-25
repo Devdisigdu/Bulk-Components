@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+  <RecipeDef>
+    <defName>MakeComponentx10</defName>
+    <label>make ten components</label>
+    <description>Make ten components.</description>
+    <jobString>Making bulk components.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>65000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Component>10</Component>
+    </products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>17</minLevel>
+			</li>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+	<recipeUsers>
+		<li>ComponentAssemblyBench</li>
+	</recipeUsers>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>MakeComponentx25</defName>
+    <label>make 25 components</label>
+    <description>Make 25 components.</description>
+    <jobString>Making bulk components.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>130000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>625</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Component>25</Component>
+    </products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>20</minLevel>
+			</li>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+	<recipeUsers>
+		<li>ComponentAssemblyBench</li>
+	</recipeUsers>
+  </RecipeDef>
+</RecipeDefs>
