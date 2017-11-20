@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
   <RecipeDef>
     <defName>MakeComponentx10</defName>
     <label>make ten components</label>
@@ -29,10 +29,7 @@
       <Component>10</Component>
     </products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>17</minLevel>
-			</li>
+			<Crafting>14</Crafting>
 		</skillRequirements>
     <workSkill>Crafting</workSkill>
 	<recipeUsers>
@@ -69,14 +66,139 @@
       <Component>25</Component>
     </products>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>20</minLevel>
-			</li>
+			<Crafting>18</Crafting>
 		</skillRequirements>
     <workSkill>Crafting</workSkill>
 	<recipeUsers>
 		<li>ComponentAssemblyBench</li>
 	</recipeUsers>
   </RecipeDef>
-</RecipeDefs>
+  
+    <RecipeDef>
+    <defName>MakeAdvComponentx10</defName>
+    <label>make ten advanced components</label>
+    <description>Make ten advanced components.</description>
+    <jobString>Making bulk advanced components.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>65000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+	 <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Component</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5.0</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5.0</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Component</li>
+        <li>Gold</li>
+        <li>Uranium</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AdvancedComponent>10</AdvancedComponent>
+    </products>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+	<recipeUsers>
+		<li>ComponentAssemblyBench</li>
+	</recipeUsers>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>MakeAdvComponentx25</defName>
+    <label>make 25 advanced components</label>
+    <description>Make 25 advanced components.</description>
+    <jobString>Making bulk advanced components.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>130000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Component</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>12.5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>12.5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Component</li>
+        <li>Gold</li>
+        <li>Uranium</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AdvancedComponent>25</AdvancedComponent>
+    </products>
+		<skillRequirements>
+			<Crafting>18</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+	<recipeUsers>
+		<li>ComponentAssemblyBench</li>
+	</recipeUsers>
+  </RecipeDef>
+</Defs>
