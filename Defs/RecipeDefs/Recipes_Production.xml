@@ -107,7 +107,7 @@
             <li>Gold</li>
           </thingDefs>
         </filter>
-        <count>5.0</count>
+        <count>3.0</count>
       </li>
       <li>
         <filter>
@@ -115,7 +115,7 @@
             <li>Uranium</li>
           </thingDefs>
         </filter>
-        <count>5.0</count>
+        <count>3.0</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -171,7 +171,7 @@
             <li>Gold</li>
           </thingDefs>
         </filter>
-        <count>12.5</count>
+        <count>7.5</count>
       </li>
       <li>
         <filter>
@@ -179,7 +179,7 @@
             <li>Uranium</li>
           </thingDefs>
         </filter>
-        <count>12.5</count>
+        <count>7.5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
