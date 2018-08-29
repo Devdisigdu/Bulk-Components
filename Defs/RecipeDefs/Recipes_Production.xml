@@ -17,7 +17,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>250</count>
+        <count>120</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -26,14 +26,14 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Component>10</Component>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </products>
 		<skillRequirements>
 			<Crafting>14</Crafting>
 		</skillRequirements>
     <workSkill>Crafting</workSkill>
 	<recipeUsers>
-		<li>ComponentAssemblyBench</li>
+		<li>FabricationBench</li>
 	</recipeUsers>
   </RecipeDef>
   
@@ -54,7 +54,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>625</count>
+        <count>300</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -63,14 +63,14 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Component>25</Component>
+      <ComponentIndustrial>25</ComponentIndustrial>
     </products>
 		<skillRequirements>
 			<Crafting>18</Crafting>
 		</skillRequirements>
     <workSkill>Crafting</workSkill>
 	<recipeUsers>
-		<li>ComponentAssemblyBench</li>
+		<li>FabricationBench</li>
 	</recipeUsers>
   </RecipeDef>
   
@@ -91,12 +91,12 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>100</count>
+        <count>200</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Component</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
         <count>10</count>
@@ -112,29 +112,29 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Uranium</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>3.0</count>
+        <count>100</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Component</li>
+        <li>ComponentIndustrial</li>
         <li>Gold</li>
-        <li>Uranium</li>
+        <li>Plasteel</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <AdvancedComponent>10</AdvancedComponent>
+      <ComponentSpacer>10</ComponentSpacer>
     </products>
 		<skillRequirements>
 			<Crafting>14</Crafting>
 		</skillRequirements>
     <workSkill>Crafting</workSkill>
 	<recipeUsers>
-		<li>ComponentAssemblyBench</li>
+		<li>FabricationBench</li>
 	</recipeUsers>
   </RecipeDef>
   
@@ -155,12 +155,12 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>250</count>
+        <count>500</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Component</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
         <count>25</count>
@@ -176,29 +176,29 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Uranium</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>7.5</count>
+        <count>250</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Component</li>
+        <li>ComponentIndustrial</li>
         <li>Gold</li>
-        <li>Uranium</li>
+        <li>Plasteel</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <AdvancedComponent>25</AdvancedComponent>
+      <ComponentSpacer>25</ComponentSpacer>
     </products>
 		<skillRequirements>
 			<Crafting>18</Crafting>
 		</skillRequirements>
     <workSkill>Crafting</workSkill>
 	<recipeUsers>
-		<li>ComponentAssemblyBench</li>
+		<li>FabricationBench</li>
 	</recipeUsers>
   </RecipeDef>
 </Defs>
